@@ -23,7 +23,7 @@ function Product() {
       };
   return (
     
-      <Carousel className="container" responsive={responsive}>
+      <Carousel className="container mt-5" responsive={responsive}>
        
         <div>
             <img style={{width:"6rem"}} src="https://f.nooncdn.com/mpcms/EN0001/assets/5431f381-094e-413f-b418-a102a94f6075.png" alt="" />

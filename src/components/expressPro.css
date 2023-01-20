@@ -1,0 +1,10 @@
+@media(max-width:433px){
+    .size{
+        width: 8rem;
+    }
+}
+@media(max-width:1000px){
+    .size{
+        width: 10rem;
+    }
+}
