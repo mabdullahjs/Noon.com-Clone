@@ -1,4 +1,3 @@
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
@@ -17,7 +16,7 @@ function Navbars() {
                     </Nav>
                     <Form >
                         <Form.Control
-                        style={{width:"50rem" , borderColor:"transparent"}}
+                        style={{width:"650%" , borderColor:"transparent"}}
                             type="search"
                             placeholder="Search"
                             aria-label="Search"
@@ -25,7 +24,7 @@ function Navbars() {
                     </Form>
                     <Nav
                         className="me-auto my-2 my-lg-0"
-                        style={{ maxHeight: '100px' , marginLeft:"2%" }}
+                        style={{ maxHeight: '100px' , marginLeft:"68%" }}
                         navbarScroll
                     >
                         <Nav.Link  href="/">العربية</Nav.Link>
