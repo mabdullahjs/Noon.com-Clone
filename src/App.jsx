@@ -9,6 +9,7 @@ import Product from './components/product';
 import Reason from './components/reason';
 import Focus from './components/focus';
 import ExpressPro from './components/expressPro';
+import Sale from './components/sale';
 
 function App() {
   return (
@@ -61,6 +62,27 @@ function App() {
         {/*Express product code */}
 
         <div className='p-3'>
+          <h1 style={{ fontSize: "1.5rem", color: "#404a5e", }}>Trending deals in electronics</h1>
+          <div className='d-flex justify-content-center flex-wrap'>
+            <ExpressPro img="https://f.nooncdn.com/products/tr:n-t_240/v1659447849/N52751034A_1.avif" name="OnePlus Nord CE 2 Dual Sim Blue" price="973.00" rating="155" />
+            <ExpressPro img="https://f.nooncdn.com/products/tr:n-t_240/v1669043087/N42284105A_1.avif" name="Apple Macbook Air MGN63 13 Display" price="3099.00" rating="320" />
+            <ExpressPro img="https://f.nooncdn.com/products/tr:n-t_240/v1667497469/N40633049A_1.avif" name="Sony DualSence wireless PS5 Controller White" price="216.00" rating="704" />
+            <ExpressPro img="https://f.nooncdn.com/products/tr:n-t_240/v1663230680/N53350699A_1.avif" name="GoPro HERO 11 Black Action Camera" price="1589.00" rating="28" />
+            <ExpressPro img="https://f.nooncdn.com/products/tr:n-t_240/v1666856996/N53359859A_1.avif" name="Apple iPod Pro 2022 (4TH Generation) 11-inch 128GB" price="2935.00" rating="4.8" />
+          </div>
+        </div>
+
+
+
+        {/* noon GIF*/}
+        <img style={{ width: "100%" }} src="https://f.nooncdn.com/mpcms/EN0001/assets/ec03d76e-eabb-4623-a6cc-0e455abf491f.gif" alt="" />
+
+
+
+
+        {/*Express product code */}
+
+        <div className='p-3'>
           <h1 style={{ fontSize: "1.5rem", color: "#404a5e", }}>Recommended for you</h1>
           <div className='d-flex justify-content-center flex-wrap'>
             <ExpressPro img="https://f.nooncdn.com/products/tr:n-t_240/v1662640953/N53346840A_1.avif" name="Apple iPhone 14 Pro Max 256GB 5G" price="5285.00" rating="4.3k" />
@@ -70,6 +92,30 @@ function App() {
             <ExpressPro img="https://f.nooncdn.com/products/tr:n-t_240/v1668531488/N22732308A_1.avif" name="Apple Airpods 2nd Gen With Charging Case" price="2115.00" rating="1.6" />
           </div>
         </div>
+
+
+
+        {/* sale  */}
+
+        <Sale img="https://f.nooncdn.com/mpcms/EN0001/assets/66728f5e-69e2-456f-85ac-e648dba07cb1.png" img1="https://f.nooncdn.com/mpcms/EN0001/assets/52c6a871-e905-4617-af55-448611f82ce2.png" img2="https://f.nooncdn.com/mpcms/EN0001/assets/bf00b3ff-ae46-4fb7-878e-36b3c50208a0.png" img3="https://f.nooncdn.com/mpcms/EN0001/assets/fa3737c6-f28d-4121-8933-d9252fb0f622.png" img4="https://f.nooncdn.com/mpcms/EN0001/assets/04dd2544-a666-49fc-8f09-b5cfd4a94edf.png" img5="https://f.nooncdn.com/mpcms/EN0001/assets/56b0ec98-34da-4a98-a1c8-93defc3eb3c2.png" img6="https://f.nooncdn.com/mpcms/EN0001/assets/c95c923b-5cd4-4bd6-80d6-7c1adb72869b.png" img7="https://f.nooncdn.com/mpcms/EN0001/assets/9bccfc51-945f-41c6-919d-9eb234e50fda.png" />
+
+
+        {/* sale  */}
+
+        <Sale img="https://f.nooncdn.com/mpcms/EN0001/assets/f4e08013-035b-43f1-b643-8ed152acdca4.png" img1="https://f.nooncdn.com/mpcms/EN0001/assets/b6b84a64-2fa5-4692-8f51-888d15892d94.png" img2="https://f.nooncdn.com/mpcms/EN0001/assets/6e6c50b5-2176-42a6-a8f1-456529c15c06.png" img3="https://f.nooncdn.com/mpcms/EN0001/assets/317c4402-5d33-45af-9c86-84641aa9cc8c.png" img4="https://f.nooncdn.com/mpcms/EN0001/assets/cf694483-a899-4418-a292-dd53f258bf92.png" img5="https://f.nooncdn.com/mpcms/EN0001/assets/895afaa3-594a-4997-9e25-82a592ab4d09.png" img6="https://f.nooncdn.com/mpcms/EN0001/assets/4a8ab2b2-eac4-4fef-a4a9-2bfeeb640ed3.png" img7="https://f.nooncdn.com/mpcms/EN0001/assets/d44615a9-dca3-419f-a5cc-6dec81b1edb3.png" />
+
+        {/* sale  */}
+
+        <Sale img="https://f.nooncdn.com/mpcms/EN0001/assets/1346ad04-a8c9-4846-8ee0-cdfcd3571f6b.png" img1="https://f.nooncdn.com/mpcms/EN0001/assets/c3d99b50-bbb7-4056-97fa-e08725cd7ebd.png" img2="https://f.nooncdn.com/mpcms/EN0001/assets/2db802b8-e71f-4234-999a-b131add34a45.png" img3="https://f.nooncdn.com/mpcms/EN0001/assets/1bd8d723-a951-4dde-a2fa-01b11c7f16d8.png" img4="https://f.nooncdn.com/mpcms/EN0001/assets/c240d589-9a3b-4127-833a-4c2a4c1dff73.png" img5="https://f.nooncdn.com/mpcms/EN0001/assets/c9939202-d507-4a53-9deb-8bb462474c7d.png" img6="https://f.nooncdn.com/mpcms/EN0001/assets/c95c923b-5cd4-4bd6-80d6-7c1adb72869b.png" img7="https://f.nooncdn.com/mpcms/EN0001/assets/4c15f523-693c-43d5-823d-cbd0e01a6961.png" />
+
+
+                {/* noon GIF*/}
+                <img style={{ width: "100%" , marginTop:"2rem" }} src="https://f.nooncdn.com/mpcms/EN0001/assets/6e50943a-e936-495c-873c-86feef76f8f0.png" alt="" />
+
+
+
+
+
 
       </div>
     </div>
